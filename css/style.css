@@ -1,0 +1,13 @@
+nav {
+    background-color: cadetblue ;
+}
+
+.barra_nera {
+    height: 2rem ;
+    width: 100% ;
+}
+
+.chevron {
+    display: inline-block ;
+    width: 10px ;
+}
