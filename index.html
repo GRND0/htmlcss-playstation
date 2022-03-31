@@ -1,58 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Playstation</title>
 </head>
+
 <body>
     <header>
         <div class="text-end bg-black barra_nera p-2">
             <img class="h-75 align-text-top" src="img/sony_logo.svg" alt="">
         </div>
-        <nav>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <img src="img/play_logo.svg" alt="">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-              
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item">
-                      <a class="nav-link d-inline-block" href="#">Giochi</a> <img class="chevron" src="img/chevron-down-solid.svg" alt="">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light px-2">
+            <img class="mx-2" src="img/play_logo.svg" alt="">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-between" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item mx-3">
+                        <a class="nav-link d-inline-block text-black" href="#">Giochi</a> <img class="chevron"
+                            src="img/chevron-down-solid.svg" alt="">
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link d-inline-block" href="#">Hardware</a> <img class="chevron" src="img/chevron-down-solid.svg" alt="">
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link d-inline-block" href="#">Servizi</a> <img class="chevron" src="img/chevron-down-solid.svg" alt="">
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link d-inline-block" href="#">Novità</a> <img class="chevron" src="img/chevron-down-solid.svg" alt="">
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link d-inline-block" href="#">Fai Acquisti</a> <img class="chevron" src="img/chevron-down-solid.svg" alt="">
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link d-inline-block" href="#">Supporto</a> <img class="chevron" src="img/chevron-down-solid.svg" alt="">
-                      </li>
-                  </ul>
-                  <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                  </form>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link d-inline-block text-black" href="#">Hardware</a> <img class="chevron"
+                            src="img/chevron-down-solid.svg" alt="">
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link d-inline-block text-black" href="#">Servizi</a> <img class="chevron"
+                            src="img/chevron-down-solid.svg" alt="">
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link d-inline-block text-black" href="#">Novità</a> <img class="chevron"
+                            src="img/chevron-down-solid.svg" alt="">
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link d-inline-block text-black" href="#">Fai Acquisti</a> <img class="chevron"
+                            src="img/chevron-down-solid.svg" alt="">
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link d-inline-block text-black" href="#">Supporto</a> <img class="chevron"
+                            src="img/chevron-down-solid.svg" alt="">
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link d-inline-block text-black" href="#">My PlayStation</a> <img class="chevron"
+                                src="img/chevron-down-solid.svg" alt="">
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0 mx-3 d-flex">
+                        <button class="btn btn-dark rounded-pill my-2 my-sm-0" type="submit">Accedi</button>
+                    </form>
+                    <img class="lente " src="img/lens.svg" alt="">
                 </div>
-              </nav>
-            
+
+            </div>
         </nav>
     </header>
-    
+
 </body>
+
 </html>

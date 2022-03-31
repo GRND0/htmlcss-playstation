@@ -11,3 +11,9 @@ nav {
     display: inline-block ;
     width: 10px ;
 }
+
+.lente {
+    display: inline-block ;
+    width: 20px ;
+    margin-right: 1rem ;
+}
