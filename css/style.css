@@ -18,12 +18,20 @@ nav {
     margin-right: 1rem ;
 }
 
-.wrapper {
+.ms_wrapper_jumbo {
     width: 100% ;
     background-size: cover ;
     background-image: url(../img/jumbo-bg.png) ;
     background-position: center ;
     background-repeat: no-repeat ;
-    padding: 4rem 1rem 1rem ;
+    padding: 14rem 0 0 0 ;
   
+}
+
+.ms_wrapper {
+    width: 100% ;
+} 
+
+.ms_radius {
+    border-radius: 10% ;
 }
