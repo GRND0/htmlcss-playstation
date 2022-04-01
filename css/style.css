@@ -19,9 +19,11 @@ nav {
 }
 
 .wrapper {
+    background-color: blue ;
     width: 100% ;
-    height: 40vh ; 
     background-image: url(../img/jumbo-bg.png) ;
     background-position: center ;
+    background-repeat: no-repeat ;
+    padding: 1rem 1rem ;
   
 }
