@@ -44,7 +44,24 @@ nav {
 
 .ms_wrapper {
     width: 100% ;
-} 
+}
+
+.ms_chiaro {
+    background-color: #bebcbb ;
+}
+
+.ms_scuro {
+    background-color: #1f1f1f ;
+}
+
+.ms_blu_scuro {
+background-color: #161c3b;
+}
+
+.ms_blu_chiaro {
+    background-color: #00439c;
+
+}
 
 .ms_radius {
     border-radius: 10% ;
