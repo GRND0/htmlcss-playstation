@@ -1,3 +1,7 @@
+body {
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
 nav {
     background-color: cadetblue ;
 }
@@ -26,6 +30,16 @@ nav {
     background-repeat: no-repeat ;
     padding: 14rem 0 0 0 ;
   
+}
+
+.ms_wrapper_two{
+    width: 100% ;
+    background-size: cover ;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg) ;
+    background-position: center ;
+    background-repeat: no-repeat ;
+    padding: 14rem 0 0 0 ;
+
 }
 
 .ms_wrapper {
