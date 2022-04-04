@@ -38,7 +38,7 @@ nav {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg) ;
     background-position: center ;
     background-repeat: no-repeat ;
-    padding: 14rem 0 0 0 ;
+    padding: 10rem 0 0 0 ;
 
 }
 
@@ -72,14 +72,26 @@ background-color: #161c3b;
     width: calc(100%/2 - 1rem) ;  
 }
 
+#sie-logo {
+    width: 12rem;
+}
+
+#ps-logo-ft {
+    width: 8rem ;
+}
+
+
 
 @media all and (min-width: 576px) {
     .ms_social {
-        width: calc(100%/4 - 1rem);
+        width: calc(100%/4 - 1rem) ;
+     
     }
     
     #facebook {
         margin-right: 1rem ;
     }
 }
+
+
 
