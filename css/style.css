@@ -67,6 +67,18 @@ background-color: #161c3b;
     border-radius: 10% ;
 }
 
+.ms_radius:hover {
+    transform: translateY(-10%) ;
+    transition: .5s ease ;
+
+}
+
+.ms_radius:active {
+    outline: 1px solid red ;
+    outline-offset: 3px ;
+}
+
+
 
 .ms_social {
     width: calc(100%/2 - 1rem) ;  
