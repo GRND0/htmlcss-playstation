@@ -66,3 +66,20 @@ background-color: #161c3b;
 .ms_radius {
     border-radius: 10% ;
 }
+
+
+.ms_social {
+    width: calc(100%/2 - 1rem) ;  
+}
+
+
+@media all and (min-width: 576px) {
+    .ms_social {
+        width: calc(100%/4 - 1rem);
+    }
+    
+    #facebook {
+        margin-right: 1rem ;
+    }
+}
+
